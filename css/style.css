@@ -33,7 +33,7 @@ header{
 }
 
 .bar-button{
-    padding: 0.5rem;
+    padding: 0.5rem 0.6rem;
     border-radius: 5rem;
 }
 
@@ -138,7 +138,7 @@ momentaneamente vuota */
 .mac-blue{
     color: white;
     background-color: rgb(81, 44, 218);
-    padding: 0.5rem;
+    padding: 0.5rem 0.6rem;
     border-radius: 5rem;
 }
 
@@ -177,7 +177,16 @@ div > i{
 .water{
     width: 100%;
     min-height: 30rem;
+}    
+.blue-link{
+    color: rgb(44, 44, 165);
+    padding-top: 3rem;
 }
+
+.footer-link{
+    padding-top: 1rem;
+}
+
 
 .last-padding{
     padding: 1rem 0 3rem 0;
@@ -198,14 +207,6 @@ hr{
     align-items: center;   
 }
 
-.blue-link{
-    color: rgb(44, 44, 165);
-    padding-top: 3rem;
-}
-
-.footer-link{
-    padding-top: 1rem;
-}
 
 .end{
     padding: 0.2rem;
@@ -213,7 +214,7 @@ hr{
 
 .footer-button{
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 0.6rem;
     border-radius: 5rem;
     background-color:rgb(81, 44, 218);
 }
