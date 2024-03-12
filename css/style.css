@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* inizio contenuto */
+.flex-container{
+    display: flex;
+    width: 70%;
+    margin:0 auto;
+}
+
+.padding{
+    padding: 3rem 0;
+}
+
+/* header */
+header{
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.barr{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.link-bar{
+    color: white;
+    padding:1rem;
+    margin-top: 1rem;
+}
+
+.bar-button{
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+.small-orange{
+    width: 25%; 
+    padding: 0.3rem;
+
+}
+
+.big-orange{
+    width: 50%;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.login{
+    text-align: end;
+}
+
+/* prima sezione */
+
+
+.pink{
+    align-self: center;
+    width: 45rem;
+    min-height: 20rem;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+h1{   
+    color: white;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.subtitle{
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.mac{
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+.browser{
+    padding: 0.5rem;
+    border-radius: 5rem;
+    color: white;
+    background-color: black;
+}
+
+/* seconda sezione */
+.big-blue{
+    width: 60%;
+    min-height: 25rem;
+}
+
+.big-pink{
+    width: 40%;
+    min-height: 25rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    padding: 2.5rem;
+}
+
+p{
+    padding: 0 2.5rem;
+}
+
+/* terza sezione 
+momentaneamente vuota*/
+
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/* quarta sezione
+momentaneamente vuota */
+
+
+/* quinta sezione */
+.green-blue{
+    width: 100%;
+    min-height: 35rem;
+    text-align:center;
+}
+
+.adventure{
+    background-image: url(../img/stars.svg);
+    background-size: content;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem 0;
+}
+
+.mac-blue{
+    background-color: aqua;
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+/* footer */
+footer{
+    background-color: rgb(48, 47, 47);
+}
+
+/* prima parte footer */
+.purple{
+    width: 40%;
+    min-height: 30rem;
+}
+
+h3{
+    padding: 3rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+.lenguage{
+    width: 0.8rem;
+    height: 0.7rem;
+    margin-left: 1rem;
+}
+
+.water{
+    width: 100%;
+    min-height: 30rem;
+}
+
+.last-padding{
+    padding: 1rem 0 3rem 0;
+}
+
+hr{
+    margin-bottom: 2rem;
+}
+
+/* seconda parte footer */
+.flex-space{
+    display: flex;
+    width: 70%;
+    margin:0 auto;
+    justify-content: space-between;
+    min-height: 3rem;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+
+.end{
+    background-color: plum;
+    padding: 0.2rem;
+}
