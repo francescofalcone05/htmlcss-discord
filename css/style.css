@@ -188,6 +188,15 @@ hr{
     
 }
 
+.blue-link{
+    color: blue;
+    padding-top: 3rem;
+}
+
+.footer-link{
+    padding-top: 1rem;
+}
+
 .end{
     background-color: plum;
     padding: 0.2rem;
