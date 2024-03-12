@@ -136,7 +136,8 @@ momentaneamente vuota */
 }
 
 .mac-blue{
-    background-color: aqua;
+    color: white;
+    background-color: rgb(81, 44, 218);
     padding: 0.5rem;
     border-radius: 5rem;
 }
@@ -158,9 +159,19 @@ h3{
 }
 
 .lenguage{
-    width: 0.8rem;
-    height: 0.7rem;
+    width: 0.9rem;
+    height: 0.8rem;
     margin-left: 1rem;
+}
+
+.it{
+    color: white;
+    font-size: 0.8rem;
+}
+
+div > i{
+    padding: 1rem;
+    color: white;
 }
 
 .water{
@@ -173,7 +184,8 @@ h3{
 }
 
 hr{
-    margin-bottom: 2rem;
+    margin:1rem auto;
+    width: 70%;
 }
 
 /* seconda parte footer */
@@ -183,13 +195,11 @@ hr{
     margin:0 auto;
     justify-content: space-between;
     min-height: 3rem;
-    align-items: center;
-    background-color: aquamarine;
-    
+    align-items: center;   
 }
 
 .blue-link{
-    color: blue;
+    color: rgb(44, 44, 165);
     padding-top: 3rem;
 }
 
@@ -198,6 +208,12 @@ hr{
 }
 
 .end{
-    background-color: plum;
     padding: 0.2rem;
+}
+
+.footer-button{
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    background-color:rgb(81, 44, 218);
 }
