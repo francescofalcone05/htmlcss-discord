@@ -179,12 +179,13 @@ div > i{
     min-height: 30rem;
 }    
 .blue-link{
-    color: rgb(44, 44, 165);
+    color: rgb(76, 76, 194);
     padding-top: 3rem;
 }
 
 .footer-link{
     padding-top: 1rem;
+    color: white;
 }
 
 
