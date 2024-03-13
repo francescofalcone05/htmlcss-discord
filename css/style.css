@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* inizio contenuto */
+/* classi generiche */
 .flex-container{
     display: flex;
     width: 70%;
@@ -23,30 +23,28 @@ header{
 
 .barr{
     padding: 1rem 0;
-    text-align: center;
+    align-items: center;   
 }
 
 .link-bar{
     color: white;
-    padding:1rem;
-    margin-top: 1rem;
 }
 
 .bar-button{
     padding: 0.5rem 0.6rem;
     border-radius: 5rem;
+    align-items: center;
 }
 
-.small-orange{
+.side-bar{
     width: 25%; 
-    padding: 0.3rem;
-
+    padding: 0.3rem; 
 }
 
-.big-orange{
+.central-bar{
     width: 50%;
-    text-align: center;
     padding: 0.3rem;
+    justify-content: space-around;
 }
 
 .login{
@@ -54,9 +52,7 @@ header{
 }
 
 /* prima sezione */
-
-
-.pink{
+.jumbo-content{
     align-self: center;
     width: 45rem;
     min-height: 20rem;
@@ -64,16 +60,20 @@ header{
     text-align: center;
 }
 
-h1{   
+.jumbo-content h1{   
     color: white;
     font-size: 3rem;
     padding: 1rem 0;
 }
 
-.subtitle{
+.jumbo-content p{
     color: white;
     font-size: 1.5rem;
     margin: 1rem 0;
+}
+
+.jumbo-content button{
+    margin: 0 1rem;
 }
 
 .mac{
@@ -89,42 +89,53 @@ h1{
 }
 
 /* seconda sezione */
-.big-blue{
+.big-box{
     width: 60%;
     min-height: 25rem;
 }
 
-.big-pink{
+.small-box{
     width: 40%;
     min-height: 25rem;
 }
 
-h2{
+.small-box h2{
     font-size: 2.5rem;
     padding: 2.5rem;
 }
 
-p{
+.small-box p{
     padding: 0 2.5rem;
 }
 
-/* terza sezione 
-momentaneamente vuota*/
+/* terza sezione */
+
+.tendina{
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.09);
+    height: 100px;
+}
+
 
 
 .reverse{
     flex-direction: row-reverse;
 }
 
-/* quarta sezione
-momentaneamente vuota */
-
+/* quarta sezione*/
+.upsidedown{
+    transform: rotateX(0.5turn);
+}
 
 /* quinta sezione */
-.green-blue{
+.center-big-box{
     width: 100%;
     min-height: 35rem;
     text-align:center;
+}
+
+.center-big-box p{
+    padding: 1rem 0;
 }
 
 .adventure{
@@ -148,7 +159,7 @@ footer{
 }
 
 /* prima parte footer */
-.purple{
+.footer-left{
     width: 40%;
     min-height: 30rem;
 }
@@ -174,7 +185,7 @@ div > i{
     color: white;
 }
 
-.water{
+.footer-right{
     width: 100%;
     min-height: 30rem;
 }    
@@ -207,7 +218,6 @@ hr{
     min-height: 3rem;
     align-items: center;   
 }
-
 
 .end{
     padding: 0.2rem;
